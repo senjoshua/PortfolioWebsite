@@ -8,6 +8,20 @@
 
   <!-- CSS  stylesheet -->
   <link rel="stylesheet" href="style.css">
+
+<!--Simple different colored pages for now-->
+  <style>
+  body {
+      position: relative;
+  }
+  #home {padding-top:50px;height:500px;color: #fff; background-image: url(images/mountains.jpg);}
+  #about {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #skills {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
+  #interests {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #projects {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
+  #contact {padding-top:50px;height:500px;color: #fff; background-color: #45AD00;}
+  </style>
+
 </head>
 
 <body data-spy="scroll" data-target=".navbar">
@@ -29,7 +43,7 @@
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#work">Projects</a>
+        <a class="nav-link" href="#projects">Projects</a>
       </li>
 
       <li class="nav-item">
@@ -37,6 +51,30 @@
       </li>
     </ul>
 </nav>
+
+<div id="home" class="container-fluid">
+  <h1>This is the home page</h1>
+</div>
+
+<div id="about" class="container-fluid">
+  <h1>About Me</h1>
+</div>
+
+<div id="skills" class="container-fluid">
+  <h1>Some skills</h1>
+</div>
+
+<div id="interests" class="container-fluid">
+  <h1>Interests?</h1>
+</div>
+
+<div id="projects" class="container-fluid">
+  <h1>Projects</h1>
+</div>
+
+<div id="contact" class="container-fluid">
+  <h1>Contact</h1>
+</div>
 
 </body>
 </html>
