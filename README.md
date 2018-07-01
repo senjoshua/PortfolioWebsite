@@ -1,2 +1,2 @@
 # PortfolioWebsite
-Personal Website
+Portfolio website built using Bootstrap and jQuery
