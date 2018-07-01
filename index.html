@@ -6,14 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
   <!-- CSS  stylesheet -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- jQuery Libary and Javascript-->
+  <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
 <!--Simple different colored pages for now-->
   <style>
@@ -30,60 +35,54 @@
 
 </head>
 
-<body data-spy="scroll" data-target=".navbar">
-  <nav class="navbar navbar-toggleable-md navbar-inverse fixed-top bg-primary data-spy="affix"">
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top">
+  <ul class="navbar-nav">
 
-  <a class="navbar-brand" href="#">Joshua Sen</a>
+    <li class="nav-item active">
+      <a class="nav-link" href="#home">Joshua Sen</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#about">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#skills">Skills</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#interests">Interests</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#projects">Projects</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#contact">Contact</a>
+    </li>
+  </ul>
+  </nav>
 
-  <div class="collapse navbar-collapse" id="navbarCollapse">
-    <ul class="navbar-nav ml-auto">
-
-      <li class="nav-item">
-        <a class="nav-link" href="#about">About</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#skills">Skills</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#interests">Interests</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#projects">Projects</a>
-      </li>
-
-      <li class="nav-item">
-        <a class="nav-link" href="#contact">Contact</a>
-      </li>
-    </ul>
+  <div id="home" class="container-fluid">
+    <h1>This is the home page</h1>
   </div>
-</nav>
 
-<div id="home" class="container-fluid">
-  <h1>This is the home page</h1>
-</div>
+  <div id="about" class="container-fluid">
+    <h1>About Me</h1>
+  </div>
 
-<div id="about" class="container-fluid">
-  <h1>About Me</h1>
-</div>
+  <div id="skills" class="container-fluid">
+    <h1>Some skills</h1>
+  </div>
 
-<div id="skills" class="container-fluid">
-  <h1>Some skills</h1>
-</div>
+  <div id="interests" class="container-fluid">
+    <h1>Interests?</h1>
+  </div>
 
-<div id="interests" class="container-fluid">
-  <h1>Interests?</h1>
-</div>
+  <div id="projects" class="container-fluid">
+    <h1>Projects</h1>
+  </div>
 
-<div id="projects" class="container-fluid">
-  <h1>Projects</h1>
-</div>
-
-<div id="contact" class="container-fluid">
-  <h1>Contact</h1>
-</div>
+  <div id="contact" class="container-fluid">
+    <h1>Contact</h1>
+  </div>
 
 </body>
 </html>
