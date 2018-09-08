@@ -11,15 +11,10 @@
   <!-- CSS  stylesheet -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- Scroll JavaScript file -->
-  <script src="scroll.js"></script>
-
   <!-- jQuery library -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
   <!-- Popper JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
-
   <!-- Latest compiled JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 
@@ -31,12 +26,11 @@
   body {
       position: relative;
   }
-  #home {padding-top:50px;height:700px;color: #fff; background-image: url(images/mountains.jpg);background-repeat:no-repeat; background-size:cover;}
+  #home {padding-top:50px;height:550px;color: #fff; background-image: url(images/mountains.jpg);background-repeat:no-repeat; background-size:cover;}
   #about {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-  #skills {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-  #interests {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+  #experience {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
   #projects {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
-  #contact {padding-top:50px;height:500px;color: #fff; background-color: #45AD00;}
+  #contact {padding-top:50px;height:550px;color: #fff; background-color: #45AD00;}
   </style>
 
 </head>
@@ -49,10 +43,7 @@
       <a class="nav-link" href="#about">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#skills">Skills</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#interests">Interests</a>
+      <a class="nav-link" href="#experience">Experience</a>
     </li>
     <li class="nav-item">
       <a class="nav-link" href="#projects">Projects</a>
@@ -64,19 +55,26 @@
   </nav>
 
   <div id="home" class="container-fluid">
-    <h1>This is the home page</h1>
+    <h1>Joshua Sen</h1>
+    <h2></h2>
   </div>
 
   <div id="about" class="container-fluid">
     <h1>About Me</h1>
+    <p>I am currently a sophomore in Computer Science at Purdue University. </p>
+    <img src="images/profile.png" class="rounded-circle" width="150" height="150"> 
   </div>
 
-  <div id="skills" class="container-fluid">
-    <h1>Some skills</h1>
-  </div>
-
-  <div id="interests" class="container-fluid">
-    <h1>Interests?</h1>
+  <div id="experience" class="container-fluid">
+    <h1>Experience </h1>
+    <h3>nova IQ</h3>
+      <li>Worked on Machine Learning project to capture, record, and retrieve data from TensorFlow models during training and execution</li>
+      <li>Designed and developed REST API using Flask to connect TensorFlow models to SQLite database</li>
+      <li>Built automated test scripts using Python unittest framework</li>
+    <h3>Pascack Hills High School - Technology Lab Assistant</h3>
+      <li>Configured, re-imaged, and updated all student and faculty laptops </li>
+      <li>Set up and updated school network </li>
+      <li>Installed, and set up projectors, and Apple TV devices in all the classrooms</li>
   </div>
 
   <div id="projects" class="container-fluid">
@@ -85,6 +83,9 @@
 
   <div id="contact" class="container-fluid">
     <h1>Contact</h1>
+    <h3>Email</h3>
+    <h3>GitHub</h3>
+    <h3>LinkedIn</h3>
   </div>
 
   <script>
