@@ -31,7 +31,7 @@
   }
   #home {padding-top:50px;height:100vh; color: #fff; background-image: url(images/mountains.jpg);background-repeat:no-repeat; background-size:cover;}
   #about {padding-top:50px;height:100vh;color: #fff; background-color: #1E88E5;}
-  #experience {padding-top:50px;height:100vh;color: #fff; background-color: #673ab7;}
+  #experience {padding-top:50px;height:100vh;color: #fff; background-color: #1e2654;}
   #projects {padding-top:50px;height:100vh;color: #fff; background-color: #00bcd4;}
   #contact {padding-top:50px;height:50vh;color: #fff; background-color: #45AD00;}
   </style>
@@ -55,6 +55,7 @@
       <a class="nav-link" href="#contact">Contact</a>
     </li>
   </ul>
+
   </nav>
 
   <div id="home" class="container-fluid">
@@ -65,21 +66,59 @@
 
   <div id="about" class="container-fluid">
     <h1>About Me</h1>
-    <p>I am currently a sophomore in Computer Science at Purdue University. </p>
-    <img src="images/profile.jpg" class="rounded-circle" width="150" height="150">
+    <div class="row">
+      <div class="col-8">
+        <p>
+          I am currently a sophomore in Computer Science at Purdue University.
+          I plan to pursue tracks in Machine Intelligence and Securuity during my undergrad.
+          I am apart of the Purdue Hackers and have participated in several Hackathons including BoilerMake, and VandyHacks.
+          I also have joined CERIAS and b01lers, the CTF team at Purdue.
+        </p>
+        <br>
+        <p>
+          Skills
+            Programming Langauges
+            -Java
+            -C
+            -C++
+            -Python
+            -Javascript
+            -HTML & CSS
+
+            Databases
+            -MongoDB
+            -SQLite
+        </p>
+      </div>
+      <div class="col-4">
+        <img src="images/profile.jpg" class="rounded-circle" width="150" height="150">
+      </div>
+    </div>
+
   </div>
 
   <div id="experience" class="container-fluid">
     <h1>Experience </h1>
-    <h3>nova IQ</h3>
-      <li>Worked on Machine Learning project to capture, record, and retrieve data from TensorFlow models during training and execution</li>
-      <li>Designed and developed REST API using Flask to connect TensorFlow models to SQLite database</li>
-      <li>Built automated test scripts using Python unittest framework</li>
     <br>
-    <h3>Pascack Hills High School - Technology Lab Assistant</h3>
-      <li>Configured, re-imaged, and updated all student and faculty laptops </li>
-      <li>Set up and updated school network </li>
-      <li>Installed, and set up projectors, and Apple TV devices in all the classrooms</li>
+    <div class="row">
+      <div class="col-8">
+        <h3>nova IQ</h3>
+        <h5>Summer Intern - June-August 2018</h5>
+          <li>Worked on Machine Learning project to capture, record, and retrieve data from TensorFlow models during training and execution</li>
+          <li>Designed and developed REST API using Flask to connect TensorFlow models to SQLite database</li>
+          <li>Built automated test scripts using Python unittest framework</li>
+        <br>
+        <h3>Pascack Hills High School</h3>
+        <h5>Technology Lab Assistant - June-August 2015-2017</h5>
+          <li>Configured, re-imaged, and updated all student and faculty laptops </li>
+          <li>Set up and updated school network </li>
+          <li>Installed, and set up projectors, and Apple TV devices in all the classrooms</li>
+      </div>
+      <div class="col-4">
+        <img src="images/novaiq.jpg" width=auto height="100">
+      </div>
+    </div>
+
   </div>
 
   <div id="projects" class="container-fluid">
@@ -92,7 +131,7 @@
       <div class="col">
         <h3>Email</h3>
         <a href="mailto:senj@purude.edu">
-        <button type="button" class="btn btn-outline-primary btn-md">
+        <button type="button" class="btn btn-outline-primary btn-sm">
           <i class="fas fa-envelope fa-3x"></i>
         </button>
         </a>
@@ -101,7 +140,7 @@
       <div class="col">
         <h3>GitHub</h3>
         <a href="https://github.com/senjoshua">
-        <button type="button" class="btn btn-outline-primary btn-md">
+        <button type="button" class="btn btn-outline-primary btn-sm">
           <i class="fab fa-github fa-3x"></i>
         </button>
         </a>
@@ -110,7 +149,7 @@
       <div class="col">
         <h3>LinkedIn</h3>
         <a href="https://www.linkedin.com/in/senjoshua/">
-        <button type="button" class="btn btn-outline-primary btn-md">
+        <button type="button" class="btn btn-outline-primary btn-sm">
           <i class="fab fa-linkedin-in fa-3x"></i>
         </button>
         </a>
@@ -119,7 +158,7 @@
       <div class="col">
         <h3>Resume</h3>
         <a href="#">
-        <button type="button" class="btn btn-outline-primary btn-md">
+        <button type="button" class="btn btn-outline-primary btn-sm">
           <i class="fas fa-file fa-3x"></i>
         </button>
         </a>
