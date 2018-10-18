@@ -3,7 +3,6 @@
 <head>
   <title>Joshua Sen - Portfolio</title>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Bootstrap CSS -->
@@ -27,21 +26,26 @@
 
 <!--Simple different colored pages for now-->
   <style>
-  body {
+  body{
       position: relative;
+      /* height: 100%; */
   }
-  #home {padding-top:0px;height:100vh; color: #fff; background-image: url(images/mountains.jpg);background-repeat:no-repeat; background-size:cover;}
-  #about {padding-top:50px;height:100vh;color: #fff; background-color: #1E88E5;}
-  #experience {padding-top:50px;height:100vh;color: #fff; background-color: #1e2654;}
-  #projects {padding-top:50px;height:100vh;color: #fff; background-color: #00bcd4;}
+  #home {padding-top:50px;height:100vh; color: #fff; background-image: url(images/mountains.jpg);background-attachment: fixed; background-position: center;background-repeat:no-repeat; background-size:cover;}
+  #about {padding-top:50px;height:100%;color: #fff; background-color: #1E88E5;}
+  #experience {padding-top:50px;height:100%;color: #fff; background-color: #1e2654;}
+  #projects {padding-top:50px;height:100%;color: #fff; background-color: #00bcd4;}
   </style>
 
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-  <nav class="navbar navbar-expand-sm bg-primary navbar-dark sticky-top" id=myNavbar>
-  <ul class="navbar-nav">
-    <a class="navbar-brand" href="#home">Joshua Sen</a>
+  <nav class="navbar navbar-expand-md bg-primary navbar-dark sticky-top" id=myNavbar>
+  <a class="navbar-brand" href="#home">Joshua Sen</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+  <ul class="navbar-nav" >
     <li class="nav-item">
       <a class="nav-link" href="#about">About</a>
     </li>
@@ -55,11 +59,11 @@
   </nav>
 
   <div id="home" class="container-fluid">
-    <h1>Joshua Sen</h1>
-    <h2>Computer Science Student at Purdue University</h2>
+    <h1 class="text-center">Joshua Sen</h1>
+    <h2 class="text-center">Computer Science Student at Purdue University</h2>
 
     <div class="row">
-      <div class="col-1">
+      <div class="col-3">
         <a href="mailto:senj@purude.edu">
         <button type="button" class="btn btn-outline-primary btn-sm d-block mx-auto">
           <i class="fas fa-envelope fa-3x"></i>
@@ -67,7 +71,7 @@
         </a>
       </div>
 
-      <div class="col-1">
+      <div class="col-3">
         <a href="https://github.com/senjoshua" target="_blank">
         <button type="button" class="btn btn-outline-primary btn-sm d-block mx-auto">
           <i class="fab fa-github fa-3x"></i>
@@ -75,7 +79,7 @@
         </a>
       </div>
 
-      <div class="col-1">
+      <div class="col-3">
         <a href="https://www.linkedin.com/in/senjoshua/" target="_blank">
         <button type="button" class="btn btn-outline-primary btn-sm d-block mx-auto">
           <i class="fab fa-linkedin-in fa-3x"></i>
@@ -83,7 +87,7 @@
         </a>
       </div>
 
-      <div class="col-1">
+      <div class="col-3">
         <a href="#">
         <button type="button" class="btn btn-outline-primary btn-sm d-block mx-auto">
           <i class="fas fa-file fa-3x"></i>
@@ -131,6 +135,8 @@
         <button type="button" class="btn btn-outline-light">Git</button>
         <button type="button" class="btn btn-outline-light">Qt</button>
         <button type="button" class="btn btn-outline-light">Flask</button>
+        <br>
+        <br>
 
       </div>
       <div class="col-4">
@@ -156,6 +162,8 @@
           <li>Configured, re-imaged, and updated all student and faculty laptops</li>
           <li>Set up and updated school network</li>
           <li>Installed, and set up projectors, and Apple TV devices in all the classrooms</li>
+        <br>
+        <br>
       </div>
       <div class="col-4">
         <img src="images/novaiq.jpg" width=auto height="100">
@@ -176,6 +184,8 @@
         </p>
           <button type="button" class="btn btn-outline-light">C</button>
           <button type="button" class="btn btn-outline-light">C++</button>
+          <br>
+          <br>
       </div>
       <div class="col-4">
         <!-- image? -->
