@@ -24,18 +24,6 @@
   <!-- font awesome icon library-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
-<!--Simple different colored pages for now-->
-  <!-- <style>
-  body{
-      position: relative;
-      /* height: 100%; */
-  }
-  #home {padding-top:50px;height:100vh; color: #fff; background-image: url(images/mountains.jpg);background-attachment: fixed; background-position: center;background-repeat:no-repeat; background-size:cover;}
-  #about {padding-top:50px;height:100%;color: #fff; background-color: #1E88E5;}
-  #experience {padding-top:50px;height:100%;color: #fff; background-color: #1e2654;}
-  #projects {padding-top:50px;height:100%;color: #fff; background-color: #00bcd4;}
-  </style> -->
-
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
@@ -188,34 +176,8 @@
       </div>
   </div>
 
-  <script>
-    $(document).ready(function(){
-      // Add scrollspy to <body>
-      $('body').scrollspy({target: ".navbar", offset: 50});
-
-      // Add smooth scrolling on all links inside the navbar
-      $("#myNavbar a").on('click', function(event) {
-        // Make sure this.hash has a value before overriding default behavior
-        if (this.hash !== "") {
-          // Prevent default anchor click behavior
-          event.preventDefault();
-
-          // Store hash
-          var hash = this.hash;
-
-          // Using jQuery's animate() method to add smooth page scroll
-          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
-          $('html, body').animate({
-            scrollTop: $(hash).offset().top
-          }, 800, function(){
-
-            // Add hash (#) to URL when done scrolling (default click behavior)
-            window.location.hash = hash;
-          });
-        }  // End if
-      });
-    });
-  </script>
+  <!-- Scroll animation -->
+  <script src="scroll.js"></script>
 
 </body>
 </html>
