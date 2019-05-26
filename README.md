@@ -5,4 +5,4 @@ www.senjoshua.com
 - [x] Organize pages and navbar
 - [x] Link social media
 - [x] About me
-- [ ] Projects
+- [x] Projects

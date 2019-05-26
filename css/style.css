@@ -4,7 +4,11 @@ body{
 }
 
 .navbar {
-  /* background-image: url("kayaks.gif"); */
+  background-color: #fff;
+}
+
+.bg-primary {
+  background-color:#393a39 !important;
 }
 
 @media screen and (max-width: 800px) {
@@ -17,11 +21,27 @@ body{
   padding-top:50px;
   height:100vh;
   color: #fff;
-  background-image: url("mountains.jpg");
+  /* background-image: url("mountains.jpg"); */
   background-attachment: fixed;
   background-position: center;
   background-repeat:no-repeat;
   background-size:cover;
+  background-color: #757574;
+  /* background: linear-gradient(
+    to right, 
+    #2cff8b8f 0%, 
+    #2cff8b8f 50%, 
+    #757574 50%, 
+    #757574 100%
+  ); */
+}
+
+#home:hover{ 
+  background-color: #2cff8b8f;
+  -moz-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  transition: all 1s ease-out;
 }
 
 #about {
