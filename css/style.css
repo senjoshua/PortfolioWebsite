@@ -18,6 +18,29 @@ body{
   }
 }
 
+a:link {
+  color: white; 
+  background-color: transparent; 
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #29c56f;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #29c56f;
+  background-color: transparent;
+  text-decoration: none;
+}
 
 .left-half {
   background-color: #29c56f;
@@ -60,7 +83,7 @@ body{
   padding-top:50px;
   height:100%;
   color: #fff;
-  background-color: #5e5e59;
+  background-color: #757574;
   padding-bottom: 50px;
 }
 
@@ -68,7 +91,7 @@ body{
   padding-top:50px;
   height:100%;
   color: #fff;
-  background-color: #1e2654;
+  background-color: #29c56f;
   padding-bottom: 50px;
 }
 
@@ -76,6 +99,6 @@ body{
   padding-top:50px;
   height:100%;
   color: #fff;
-  background-color: #00bcd4;
+  background-color: #757574;
   padding-bottom: 50px;
 }
