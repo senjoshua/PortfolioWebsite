@@ -53,6 +53,7 @@ a:active {
 }
 
 .left-half {
+  padding-top: 300px;
   background-color: #29c56f;
   height: 100vh;
   position: absolute;
@@ -69,6 +70,7 @@ a:active {
 }
 
 .right-half {
+  padding-top: 300px;
   background: linear-gradient(to right, #29c56f 50%, #757574 50%);
   background-size: 200% 100%;
   background-position: right bottom;
