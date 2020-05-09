@@ -1,0 +1,152 @@
+/* navbar */
+.navbar {
+  background-color: #fff;
+}
+
+.bg-primary {
+  background-color:#393a39 !important;
+}
+
+.btn-circle {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    /* font-size: calc(1px + 1vw); */
+  }
+
+/* home */
+#home{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /* background-color: #757574; */
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+#home>h1{
+    color:white;
+}
+
+#home>p{
+    font-size: calc(1px + 2vw);
+}
+
+/* profile picture */
+#profile {
+    margin-top: 1%;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profile>img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+
+hr {
+    height: 1px;
+    margin: 1em 0;
+    background-color: white;
+    margin-left:0;
+}
+
+.slide{
+    -webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
+    transition: width 1s  ease-out;
+    width : 0%;
+}
+
+.slide-full{
+    width:100%;
+}
+
+#about{
+    /* position: fixed; */
+    height: 100%;
+    width: 100%;
+    /* text-align: center; */
+    background-color: #757574;
+    /* background-image: url("mountains.jpg"); */
+}
+
+.btn{
+    margin-top: 5px;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+#experience{
+    /* position: fixed; */
+    height: 100%;
+    width: 100%;
+    /* text-align: center; */
+    background-color: #757574;
+}
+
+#projects{
+    /* position: fixed; */
+    height: 100%;
+    width: 100%;
+    /* text-align: center; */
+    background-color: #757574;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+a:link {
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
+  
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #29c56f;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:active {
+    color: #29c56f;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+li{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+h5{
+    color: white;
+}
