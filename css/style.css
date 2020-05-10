@@ -1,12 +1,4 @@
-body{
-    position: relative;
-    /* width: 100%;
-    height: 100%; */
-    /* margin: 0;
-    padding: 0; */
-    overflow-x: hidden;
-}
-
+/* navbar */
 .navbar {
   background-color: #fff;
 }
@@ -16,119 +8,154 @@ body{
 }
 
 .btn-circle {
-  height: 60px;
-  width: 60px;
-  border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: white;
+    /* font-size: calc(1px + 1vw); */
+  }
+
+/* home */
+#home{
+    /* padding-top: 1%; */
+    padding-bottom: 1%;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    /* background-color: #757574; */
+    background: linear-gradient(-45deg, #E5FCC2, #9DE0AD,#45ADA8, #547980, #594F4F);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
 }
 
-@media screen and (max-width: 800px) {
-  img {
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+#home>h1{
+    color:white;
+}
+
+#home>p{
+    /* font-size: calc(1px + 2vw); */
+}
+
+/* profile picture */
+#profile {
+    margin-top: 1%;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#profile>img {
+    display: block;
     width: 100%;
-    height: auto;
-  }
+    border-radius: 50%;
+}
+
+hr {
+    height: 1px;
+    margin: 1em 0;
+    background-color: white;
+    margin-left:0;
+}
+
+.slide{
+    -webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
+    transition: width 1s  ease-out;
+    width : 0%;
+}
+
+.slide-full{
+    width:100%;
+}
+
+#about{
+    /* position: fixed; */
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 100%;
+    width: 100%;
+    /* text-align: center; */
+    background-color: #757574;
+}
+
+.btn{
+    margin-top: 5px;
+}
+
+h1{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+#experience{
+    /* position: fixed; */
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 100%;
+    width: 100%;
+    /* text-align: center; */
+    background-color: #757574;
+}
+
+
+#projects{
+    /* position: fixed; */
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 100%;
+    width: 100%;
+    /* text-align: center; */
+    background-color: #757574;
 }
 
 a:link {
-  color: white; 
-  background-color: transparent; 
-  text-decoration: none;
-}
-
-a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
-  color: #29c56f;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:active {
-  color: #29c56f;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-.left-half {
-  padding-top: 300px;
-  background-color: #29c56f;
-  height: 100vh;
-  position: absolute;
-  left: 0px;
-  width: 50%;
-  text-align: right;
-  z-index: 0;
-  padding-right: 10px;
-}
-
-.left-half:hover + .right-half {
-  background-position: left bottom;
-
-}
-
-.right-half {
-  padding-top: 300px;
-  background: linear-gradient(to right, #29c56f 50%, #757574 50%);
-  background-size: 200% 100%;
-  background-position: right bottom;
-  transition: all 1s ease-out;
-  height: 100vh;
-  position: absolute;
-  right: 0px;
-  width: 50%;
-  z-index: 0;
-  padding-left: 10px;
-}
-
-.my-path {
-  fill:none;
-  stroke:#ffffff;
-  stroke-width:3;
+    color: white; 
+    background-color: transparent; 
+    text-decoration: none;
+  }
   
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: #29c56f;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:active {
+    color: #29c56f;
+    background-color: transparent;
+    text-decoration: none;
 }
 
-.lineDrawing{
-  width: 100%;
-  position: absolute;
-  text-align: center;
-  z-index: 1;
+li{
+    color: white;
 }
 
-#home {
-  /* padding-top:50px; */
-  height:100vh;
-  color: #fff;
-  /* background-image: url("mountains.jpg"); */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat:no-repeat;
-  background-size:cover;
+h3{
+    color: white;
 }
 
-
-#about {
-  padding-top:50px;
-  height:100%;
-  color: #fff;
-  background-color: #757574;
-  padding-bottom: 50px;
-}
-
-#experience {
-  padding-top:50px;
-  height:100%;
-  color: #fff;
-  background-color: #29c56f;
-  padding-bottom: 50px;
-}
-
-#projects {
-  padding-top:50px;
-  height:100%;
-  color: #fff;
-  background-color: #757574;
-  padding-bottom: 50px;
+h5{
+    color: white;
 }
