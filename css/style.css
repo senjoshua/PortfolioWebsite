@@ -113,6 +113,15 @@ p{
     background-color: #757574;
 }
 
+.img-max {
+    max-width: 75px;
+    width:100%;
+}
+
+.img-max-wide {
+    max-width: 200px;
+    width:100%;
+}
 
 #projects{
     /* position: fixed; */
