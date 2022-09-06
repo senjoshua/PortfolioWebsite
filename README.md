@@ -1,8 +1,4 @@
 # PortfolioWebsite
-Portfolio website built using Bootstrap and jQuery
+Portfolio website with links to email, GitHub, LinkedIn, and my resume
 
 www.senjoshua.com
-- [x] Organize pages and navbar
-- [x] Link social media
-- [x] About me
-- [x] Projects
